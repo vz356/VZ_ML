@@ -1,0 +1,20 @@
+1. Be in develop branch, do HW
+Create files
+Render ipynb as html by running this in VScode terminal:
+	jupyter nbconvert --to html your_notebook.ipynb --output your_notebook.html
+
+
+
+2. After finishing HW, stage the changes to prepare to move to main branch
+be in develop branch.
+Click on "+" next to the file in "source control" to move the HW file from "changes" to "staged changes"
+Type a message in the "message" box in "source control". E.g., "save HW". ***THERE MUST BE A MESSAGE, ELSE COMMIT WILL GO IN LOOP
+AFTER typing a message, click blue "commit" button
+
+
+
+3. Actually move HW from "develop" to "main" branch
+Click on "..." in source control. Click "checkout to...". It'll open the top bar. Select "main".
+Click on "..." in source control. Click "branch" -> "merge". It'll open the top bar. Select "develop". 
+Now, it's checked out the HW file from "develop" to "main" branch. But I still need to push changes to internet.
+To do that, click on "..." in sourcce control. Click "push". It should show all changes in "main" branch online.
